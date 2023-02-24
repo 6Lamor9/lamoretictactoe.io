@@ -1,0 +1,454 @@
+
+* {
+    box-sizing: border-box;
+}
+:root {
+    --main: #03001C;
+    --2C: #301E67;
+    --3C : #5B8FB9;
+    --4C: #b8eadb;
+}
+
+.cnter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnter2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+body {
+    /* overflow: hidden; */
+    background-color: var(--main);
+    color:#fff;
+    margin: 0;
+    font-family: 'Nunito',poppins,sans-serif;
+}
+nav {
+    background-color: var(--main);
+    height: 4rem;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    /* background-image: linear-gradient(var(--2C), var(--main)); */
+
+}
+.in-nav {
+    width: calc(50% - 1rem);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.is-XO-icon {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right,var(--3C), var(--4C));
+}
+.is-head-name {
+}
+.navright {
+display: flex;
+justify-content: end;
+}
+.navright a {
+    color: white;
+    text-decoration-line: none;
+    width: 5rem;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+.mainu , .mainu-toogle  {
+    display: none;
+}
+.navright a:hover {
+    color: var(--4C);
+}
+main {
+}
+
+.was-main {
+}
+.was-main div {
+    /* display: inline-block; */
+}
+.main-title {
+    text-align: center;
+    width: 40vw;
+    height: 30vw;
+    font-size: 2.5vw;
+}
+.gameing-pic {
+    overflow: hidden;
+    width: 50vw;
+}
+.main-title h1 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to top,var(--3C), var(--4C));
+}
+.main-title a {
+    text-decoration: none;
+    color:#fff;
+}
+.main-title a:hover {
+    color: var(--4C);
+}
+.part1 {
+}
+.tryhard {
+}
+
+.resons {
+    padding: 2rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.reson {
+    padding: 4px;
+    font-size: 1.5vw;
+    border-radius: 1rem;
+    text-align: center;
+    /* display: inline-block;
+    width: 30%; */
+    background-color: var(--2C);
+    /* background-image: linear-gradient(var(--main), var(--2C)); */
+}
+.blog4 {
+    background-color:hsl(348, 100%, 61%);
+}
+.blog5 {
+    background-color:hsl(141, 53%, 53%);
+}
+.blog6 {
+    background-color:hsl(204, 86%, 53%);
+}
+.play {
+    height: 6rem;
+    text-align: center;
+
+}
+.play h1  {
+    display: block !important;
+    font-size: 6vw;
+}
+.play2 h1 {
+}
+.play2 {
+}
+
+.play-button {
+    /* margin: auto 4vw; */
+    border-radius: 0.75rem;
+    width: 130px;
+    height: 50px;
+    background-color: var(--4C);
+    font-size: 1.5rem;
+    color: var(--main);
+    text-align: center;
+    text-decoration: none;
+}
+.play-button:hover {
+    animation: op2 500ms forwards;
+}
+@keyframes op2 {
+    0%  {
+
+    }
+    100% {
+        color: var(--4C);
+        background-color: var(--main);
+        border: 2px solid var(--4C);
+    }
+}
+
+.before-footer {
+    width: 95%;
+    border: none;
+    height: 2px;
+    margin: 4rem auto 2rem auto;
+    background-color: var(--3C);
+}
+footer {
+    height: 8rem;
+    padding: 0.5rem;
+}
+.footer {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.person {
+    height: 4rem;
+    background-color: var(--4C);
+    border-radius: 50%;
+    
+}
+
+.was-main {
+padding: 2rem;
+}
+.was-main div {
+    display: inline-block;
+}
+.main-title {
+    text-align: center;
+    width: 40vw;
+    height: 30vw;
+    font-size: 2.5vw;
+}
+.gameing-pic {
+    overflow: hidden;
+    width: 50vw;
+}
+.main-title h1 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to top,var(--3C), var(--4C));
+}
+.main-title a {
+    text-decoration: none;
+    color:#fff;
+}
+.main-title a:hover {
+    color: var(--4C);
+}
+.part1 {
+
+
+}
+.tryhard {
+    border-radius: 5rem 5rem 0 0 ;
+    padding-top: 2rem;
+    margin-top: 4rem;
+}
+
+.resons {
+    padding: 2rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.reson {
+    padding: 4px;
+    font-size: 1.5vw;
+    border-radius: 1rem;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    background-color: var(--2C);
+    /* background-image: linear-gradient(var(--main), var(--2C)); */
+}
+.blog4 {
+    background-color:hsl(348, 100%, 61%);
+}
+.blog5 {
+    background-color:hsl(141, 53%, 53%);
+}
+.blog6 {
+    background-color:hsl(204, 86%, 53%);
+}
+.play {
+    width: 100%;
+    height: 6rem;
+    text-align: center;
+
+}
+.play h1  {
+    padding: 0px;
+    display: block !important;
+    font-size: 6vw;
+}
+.play2 {
+    height: 10vw;
+}
+
+.play-button {
+    margin: auto 4vw;
+    border-radius: 0.75rem;
+    width: 130px;
+    height: 50px;
+    background-color: var(--4C);
+    font-size: 1.5rem;
+    color: var(--main);
+    text-align: center;
+    text-decoration: none;
+}
+.play-button:hover {
+    animation: op2 500ms forwards;
+}
+@keyframes op2 {
+    0%  {
+
+    }
+    100% {
+        color: var(--4C);
+        background-color: var(--main);
+        border: 2px solid var(--4C);
+    }
+}
+.play2 h1 {
+font-size: 4rem;
+}
+.before-footer {
+    width: 95%;
+    border: none;
+    height: 2px;
+    margin: 4rem auto 2rem auto;
+    background-color: var(--3C);
+}
+footer {
+    height: 8rem;
+    padding: 0.5rem;
+}
+.footer {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.person {
+    height: 5rem;
+    background-color: var(--4C);
+    border-radius: 50%;
+    
+}
+.mainu {
+    display: flex;
+    position: absolute;
+    height: 10rem;
+    background-color: var(--main);
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    opacity: 0;
+    top: -30% ;
+    animation: op3 500ms forwards;
+}
+
+
+@media only screen and (max-width: 627px){
+    nav {
+        height: 3rem;
+    }
+    .is-head-name {
+        font-size: 1.4rem !important;
+        font-weight: 700;
+    }
+    .navright a {
+        display: none;
+    }
+    .navright {
+        width: 25%;
+        /* margin-right: 1rem; */
+    }
+    .navleft {
+        width: 65%;
+        /* margin-left: 1rem; */
+    }
+    .mainu-toogle {
+        display: inline;
+        width: 2rem;
+        height: 3rem;
+        margin-top: 1.5rem;
+    }
+    .toogle-line {
+        display: flex;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        background-color: #fff;
+    }
+    .line2 {
+        margin:10% 0;
+        transition-duration: 500ms;
+    }
+    .line1 {
+        transition-duration: 500ms;
+    }
+    .line3 {
+        transition-duration: 500ms;
+    }
+        .mainu {
+        position: absolute;
+        height: 10rem;
+        background-color: var(--main);
+        width: 100%;
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+        opacity: 0;
+        top: -30% ;
+        animation: easyin 500ms forwards;
+    }
+    @keyframes easyin {
+        0% {
+
+        }
+        100% {
+            display: flex;
+            top: 3rem ;
+            opacity: 1;
+        }
+    }
+    .mainu-item {
+        height: 2rem; ;
+        color: white;
+        text-decoration-line: none;
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    hr {
+        width: 100%;
+        opacity: 0.5;
+    }
+    .was-main {
+        padding: 1rem !important;
+        display: inline !important;
+    }
+    .main-pic {
+    }
+    .main-title, .gameing-pic{
+        width: 100% !important;
+    }
+    .main-title {
+        margin-left: -1rem;
+        height: 16rem !important;
+        font-size: 5.3vw !important;
+    }
+    .gameing-pic {
+
+    }
+    .play-button {
+        margin: auto 4rem;
+        border-radius: 0.75rem;
+        width: 130px;
+        height: 50px;
+        background-color: var(--4C);
+        font-size: 1.5rem;
+        color: var(--main);
+        text-align: center;
+        text-decoration: none;
+    }
+}
+@media only screen and (max-width: 700px){
+    .part1 {
+        display: inline !important;
+    }
+    .part2 {
+        display: none !important;
+    }
+    .reson {
+        
+        font-size: 1rem !important;;
+        margin: 2rem auto !important;
+        display: block !important;
+        width: 90% !important;
+    }
+}
