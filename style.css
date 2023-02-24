@@ -348,7 +348,7 @@ footer {
         /* margin-right: 1rem; */
     }
     .navleft {
-        width: 85%;
+        width: 80%;
         /* margin-left: 1rem; */
     }
     .mainu-toogle {
@@ -376,6 +376,7 @@ footer {
     }
         .mainu {
         position: absolute;
+        display: none;
         height: 10rem;
         background-color: var(--main);
         width: 100%;
