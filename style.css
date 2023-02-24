@@ -366,12 +366,8 @@ footer {
     }
     .line2 {
         margin:10% 0;
-        transition-duration: 500ms;
     }
-    .line1 {
-        transition-duration: 500ms;
-    }
-    .line3 {
+    .line1,.line2 ,.line3 {
         transition-duration: 500ms;
     }
         .mainu {
