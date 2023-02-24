@@ -227,10 +227,10 @@ button[type="reset"] {
         display: none;
     }
     .navright {
-        width: 25%;
+        width: 15%;
     }
     .navleft {
-        width: 65%;
+        width: 80%;
     }
     .mainu-toogle {
         display: inline;
@@ -251,8 +251,9 @@ button[type="reset"] {
     .line1,.line2 ,.line3 {
         transition-duration: 500ms;
     }
-    .mainu {
+     .mainu {
         position: absolute;
+        display: none;
         height: 10rem;
         background-color: var(--main);
         width: 100%;
